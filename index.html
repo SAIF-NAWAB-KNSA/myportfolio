@@ -1,0 +1,502 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+        rel="stylesheet"
+    >
+
+    <title>Saif Nawab | Portfolio</title>
+
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+    </style>
+</head>
+
+<body class="bg-slate-900 text-white antialiased">
+
+    <!-- ================= NAVBAR ================= -->
+
+    <nav class="border-b border-white/10 bg-slate-900/80 backdrop-blur-md sticky top-0 z-50">
+
+        <div class="max-w-7xl mx-auto px-6 py-4">
+
+            <div class="flex items-center justify-between">
+
+                <!-- Logo -->
+                <a href="#" class="text-xl font-bold">
+                    KANSA's
+                    <span class="text-purple-500">Portfolio</span>
+                </a>
+
+
+                <!-- Navigation -->
+                <div class="hidden md:flex items-center gap-7">
+
+                    <a
+                        href="#about"
+                        class="text-gray-300 hover:text-white transition"
+                    >
+                        About
+                    </a>
+
+                    <a
+                        href="#skills"
+                        class="text-gray-300 hover:text-white transition"
+                    >
+                        Skills
+                    </a>
+
+                    <a
+                        href="#projects"
+                        class="text-gray-300 hover:text-white transition"
+                    >
+                        Projects
+                    </a>
+
+                    <a
+                        href="#contact"
+                        class="text-gray-300 hover:text-white transition"
+                    >
+                        Contact
+                    </a>
+
+                    <!-- GitHub -->
+                    <a
+                        href="#github"
+                        class="flex items-center gap-2 px-5 py-2 rounded-full
+                               bg-purple-600 hover:bg-purple-700
+                               border border-white
+                               font-semibold
+                               transition duration-300
+                               hover:scale-105"
+                    >
+
+                        <img
+                            src="github.png"
+                            alt="GitHub"
+                            class="w-5 h-5"
+                        >
+
+                        GitHub
+
+                        <span>→</span>
+
+                    </a>
+
+                </div>
+
+                <!-- Mobile Menu Button -->
+                <button class="md:hidden text-2xl">
+                    ☰
+                </button>
+
+            </div>
+
+        </div>
+
+    </nav>
+
+
+    <!-- ================= HERO SECTION ================= -->
+
+    <main>
+
+        <section
+            id="about"
+            class="min-h-[calc(100vh-73px)] flex items-center"
+        >
+
+            <div
+                class="max-w-7xl mx-auto px-6 py-20 w-full"
+            >
+
+                <div
+                    class="grid md:grid-cols-2 gap-12
+                           items-center"
+                >
+
+                    <!-- ================= TEXT ================= -->
+
+                    <div class="text-center md:text-left">
+
+                        <!-- Small intro -->
+                        <p
+                            class="text-purple-400 font-semibold
+                                   tracking-wider uppercase mb-4"
+                        >
+                            Hello, I'm
+                        </p>
+
+
+                        <!-- Main heading -->
+                        <h1
+                            class="text-4xl sm:text-5xl lg:text-6xl
+                                   font-extrabold leading-tight"
+                        >
+
+                            Khawaja Nawab
+                            <span
+                                class="text-purple-500"
+                            >
+                                Saif Ali
+                            </span>
+
+                        </h1>
+
+
+                        <!-- Subtitle -->
+                        <p
+                            class="text-xl sm:text-2xl
+                                   text-gray-300 mt-5"
+                        >
+                            You can call me
+                            <span class="text-white font-semibold">
+                                Saif Nawab.
+                            </span>
+                        </p>
+
+
+                        <!-- Description -->
+                        <p
+                            class="text-gray-400 max-w-xl
+                                   mt-6 leading-relaxed"
+                        >
+                            I'm a Computer Engineering student and
+                            aspiring Full-Stack Developer with a strong
+                            interest in Data Science, programming and
+                            building useful digital products.
+                        </p>
+
+
+                        <!-- Skills -->
+                        <div
+                            class="flex flex-wrap
+                                   justify-center md:justify-start
+                                   gap-3 mt-7"
+                        >
+
+                            <span
+                                class="px-4 py-2 rounded-full
+                                       bg-white/5
+                                       border border-white/10
+                                       text-gray-300"
+                            >
+                                B.E Computer Engineering
+                            </span>
+
+                            <span
+                                class="px-4 py-2 rounded-full
+                                       bg-white/5
+                                       border border-white/10
+                                       text-gray-300"
+                            >
+                                Full-Stack Developer
+                            </span>
+
+                            <span
+                                class="px-4 py-2 rounded-full
+                                       bg-white/5
+                                       border border-white/10
+                                       text-gray-300"
+                            >
+                                Data Science Enthusiast
+                            </span>
+
+                        </div>
+
+
+                        <!-- Buttons -->
+                        <div
+                            class="flex flex-wrap
+                                   justify-center md:justify-start
+                                   gap-4 mt-9"
+                        >
+
+                            <a
+                                href="#projects"
+                                class="px-6 py-3 rounded-lg
+                                       bg-purple-600
+                                       hover:bg-purple-700
+                                       font-semibold
+                                       transition duration-300
+                                       hover:-translate-y-1"
+                            >
+                                View My Projects →
+                            </a>
+
+
+                            <a
+                                href="#contact"
+                                class="px-6 py-3 rounded-lg
+                                       border border-white/20
+                                       hover:bg-white/10
+                                       font-semibold
+                                       transition duration-300"
+                            >
+                                Contact Me
+                            </a>
+
+                        </div>
+
+                    </div>
+
+
+                    <!-- ================= IMAGE ================= -->
+
+                    <div
+                        class="flex justify-center md:justify-end"
+                    >
+
+                        <div class="relative">
+
+                            <!-- Glow -->
+                            <div
+                                class="absolute inset-0
+                                       bg-purple-600/30
+                                       blur-3xl
+                                       rounded-full
+                                       scale-90"
+                            ></div>
+
+
+                            <!-- Image Container -->
+                            <div
+                                class="relative
+                                       w-72 h-72
+                                       sm:w-80 sm:h-80
+                                       lg:w-96 lg:h-96
+                                       rounded-2xl
+                                       border border-white/20
+                                       bg-slate-800
+                                       overflow-hidden
+                                       shadow-2xl"
+                            >
+
+                                <img
+                                    src="myphoto.jpeg"
+                                    alt="Saif Nawab"
+                                    class="w-full h-full
+                                           object-cover
+                                           hover:scale-105
+                                           transition duration-500"
+                                >
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= SKILLS ================= -->
+
+        <section
+            id="skills"
+            class="py-24 border-t border-white/10"
+        >
+
+            <div class="max-w-7xl mx-auto px-6 text-center">
+
+                <p class="text-purple-400 font-semibold">
+                    What I Work With
+                </p>
+
+                <h2
+                    class="text-3xl sm:text-4xl
+                           font-bold mt-2"
+                >
+                    My Skills
+                </h2>
+
+                <div
+                    class="grid sm:grid-cols-2 lg:grid-cols-4
+                           gap-6 mt-12"
+                >
+
+                    <div
+                        class="p-6 rounded-xl
+                               bg-white/5
+                               border border-white/10
+                               hover:border-purple-500/50
+                               transition"
+                    >
+                        <h3 class="font-bold text-xl">
+                            Frontend
+                        </h3>
+
+                        <p class="text-gray-400 mt-3">
+                            HTML, CSS, JavaScript,
+                            Tailwind CSS
+                        </p>
+                    </div>
+
+
+                    <div
+                        class="p-6 rounded-xl
+                               bg-white/5
+                               border border-white/10
+                               hover:border-purple-500/50
+                               transition"
+                    >
+                        <h3 class="font-bold text-xl">
+                            Backend
+                        </h3>
+
+                        <p class="text-gray-400 mt-3">
+                            Node.js, Express,
+                            SQL
+                        </p>
+                    </div>
+
+
+                    <div
+                        class="p-6 rounded-xl
+                               bg-white/5
+                               border border-white/10
+                               hover:border-purple-500/50
+                               transition"
+                    >
+                        <h3 class="font-bold text-xl">
+                            Programming
+                        </h3>
+
+                        <p class="text-gray-400 mt-3">
+                            Python, C,
+                            Git & GitHub
+                        </p>
+                    </div>
+
+
+                    <div
+                        class="p-6 rounded-xl
+                               bg-white/5
+                               border border-white/10
+                               hover:border-purple-500/50
+                               transition"
+                    >
+                        <h3 class="font-bold text-xl">
+                            Data Science
+                        </h3>
+
+                        <p class="text-gray-400 mt-3">
+                            NumPy, Pandas,
+                            Data Analysis
+                        </p>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= PROJECTS ================= -->
+
+        <section
+            id="projects"
+            class="py-24"
+        >
+
+            <div class="max-w-7xl mx-auto px-6 text-center">
+
+                <p class="text-purple-400 font-semibold">
+                    My Work
+                </p>
+
+                <h2
+                    class="text-3xl sm:text-4xl
+                           font-bold mt-2"
+                >
+                    Featured Projects
+                </h2>
+
+                <p class="text-gray-400 mt-4">
+                    Some projects I have built while learning.
+                </p>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= CONTACT ================= -->
+
+        <section
+            id="contact"
+            class="py-24 border-t border-white/10"
+        >
+
+            <div class="max-w-3xl mx-auto px-6 text-center">
+
+                <p class="text-purple-400 font-semibold">
+                    Get In Touch
+                </p>
+
+                <h2
+                    class="text-3xl sm:text-4xl
+                           font-bold mt-2"
+                >
+                    Let's Build Something
+                </h2>
+
+                <p class="text-gray-400 mt-5">
+                    Have a project idea or want to connect?
+                    I'd love to hear from you.
+                </p>
+
+                <a
+                    href="mailto:your-email@example.com"
+                    class="inline-block mt-8
+                           px-7 py-3
+                           rounded-lg
+                           bg-purple-600
+                           hover:bg-purple-700
+                           font-semibold
+                           transition"
+                >
+                    Contact Me →
+                </a>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- ================= FOOTER ================= -->
+
+    <footer
+        class="border-t border-white/10
+               py-8 text-center
+               text-gray-500"
+    >
+
+        <p>
+            © 2026 Saif Nawab. All rights reserved.
+        </p>
+
+    </footer>
+
+</body>
+</html>
